@@ -37,10 +37,12 @@ Prévia renderizada pelo código do LCD, com data e horários de exemplo. O rel�
 
 Ligue o **GPIO 27 (TX) do servo** ao **GPIO 27 (RX) do painel** e o **GPIO 33 (TX) do painel** ao **GPIO 33 (RX) do servo**. Una os GNDs das duas placas. O [guia de montagem](docs/montagem.md) detalha a alimentação e os periféricos.
 
+#### ESP32 A · servo
+
+![Tabela de conexões do ESP32 do servo com MG90S no GPIO 13, fonte externa de 5 V e UART2](referencias/conexoes_esp32_servo.png)
+
+
 #### ESP32 B · painel
 
 ![Tabela de conexões do ESP32 do painel com display, botão, buzzers, relé, LED e UART2](referencias/conexoes_esp32_painel.png)
 
-#### ESP32 A · servo
-
-![Tabela de conexões do ESP32 do servo com MG90S no GPIO 13, fonte externa de 5 V e UART2](referencias/conexoes_esp32_servo.png)
